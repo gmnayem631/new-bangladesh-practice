@@ -83,3 +83,39 @@
   border: none;
   cursor: pointer;
 }
+
+.quote {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 15px;
+  margin: 0px 22px;
+  padding: 44px 22px 44px 22px;
+}
+
+.quote-description {
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  margin: 22px 0px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.quote-speaker {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 4px 0px;
+}
+
+.speaker-title {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
