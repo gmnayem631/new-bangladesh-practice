@@ -25,6 +25,41 @@
   background-color: rgb(237, 178, 134);
 }
 
+/* Navigation Bar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 146px 22px 146px;
+}
+
+.navbar .nav-title {
+  color: rgb(14, 14, 14);
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0px 9px;
+}
+
+.navbar .btn-sign {
+  color: rgb(0, 106, 80);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0px 44px;
+  padding: 14px 27px 14px 27px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 7px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.navbar .btn-sign:hover {
+  background-color: rgb(198, 228, 214);
+  color: rgb(14, 14, 14);
+}
+
+/* Banner styles */
 .banner {
   display: flex;
   justify-content: space-between;
