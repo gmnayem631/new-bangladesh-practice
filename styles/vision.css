@@ -1,0 +1,85 @@
+/* Importing Fira Sans font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.btn-digital {
+  background: rgb(84, 144, 245);
+}
+.btn-green {
+  background: rgb(9, 161, 92);
+}
+.btn-modern {
+  background: rgb(255, 194, 57);
+}
+
+.digital-bg {
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.green-bg {
+  background: rgb(198, 228, 214);
+}
+
+.modern-bg {
+  background: rgb(247, 235, 207);
+}
+
+.vision {
+  margin: 80px 146px 0px 146px;
+}
+
+.vision-heading {
+  color: rgb(14, 14, 14);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 22px 0px;
+}
+
+.vision-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 12px 0px;
+}
+
+.vision-block-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0px;
+  gap: 22px;
+}
+
+.vision-block {
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 29px;
+}
+
+.vision-block-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 12px 0px;
+}
+
+.vision-block-subtitle {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 12px 0px;
+}
+
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17px;
+  border-radius: 7px;
+  margin: 24px 0px;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  cursor: pointer;
+}
